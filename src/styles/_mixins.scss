@@ -1,0 +1,7 @@
+@mixin card-shadow {
+  box-shadow: $shadow;
+}
+
+@mixin smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
