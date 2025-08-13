@@ -1,27 +1,10 @@
+
+
 // @import './variables';
 // @import './mixins';
+@use 'variables';
+@use 'mixins';
 
-// .card {
-//     // @include card-shadow();
-//     @mixin card-shadow();
-//   border-radius: $border-radius;
-//     @include smooth-transition():;
-//   overflow: hidden;
-//   &:hover ;
-//   -webkit-border-radius: $border-radius;
-//   -moz-border-radius: $border-radius;
-//   -ms-border-radius: $border-radius;
-//   -o-border-radius: $border-radius;
-// {
-//     transform: scale(1.05);
-//     box-shadow: 0 10px 15px rgba(0,0,0,0.2);
-//   }
-// }
-
-
-
-@import './variables';
-@import './mixins';
 
 .card {
   @include card-shadow(); // use the mixin here
