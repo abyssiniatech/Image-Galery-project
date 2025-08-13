@@ -1,25 +1,19 @@
 
 
-// @import './variables';
-// @import './mixins';
-@use 'variables';
-@use 'mixins';
 
+
+@use './variables' as v;
+@use './mixins' as m;
 
 .card {
-  @include card-shadow(); // use the mixin here
-  @include smooth-transition(); // use smooth-transition mixin
+  @include m.card-shadow;       // use mixin from _mixins.scss
+  @include m.smooth-transition; // use transition mixin
 
-  border-radius: $border-radius;
+  border-radius: v.$border-radius; // use variable from _variables.scss
   overflow: hidden;
-
-  -webkit-border-radius: $border-radius;
-  -moz-border-radius: $border-radius;
-  -ms-border-radius: $border-radius;
-  -o-border-radius: $border-radius;
 
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 15px #00000033; // hover effect
   }
 }

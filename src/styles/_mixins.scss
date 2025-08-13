@@ -1,5 +1,9 @@
+
+
+@use './variables' as v; // import variables to use in mixins
+
 @mixin card-shadow {
-  box-shadow: $shadow;
+  box-shadow: v.$shadow;
 }
 
 @mixin smooth-transition {
