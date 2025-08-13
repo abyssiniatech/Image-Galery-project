@@ -18,9 +18,13 @@ A beautiful, responsive **Image Gallery** web application built with **React**, 
 - **Elegant UI**: Tailwind CSS utility classes for fast and maintainable styling  
 
 ---
-  🔗 Live Project
-Check out the live project on Vercel:
-Image Gallery Live
+
+## 🔗 Live Project
+
+Check out the live project on Vercel:  
+[Image Gallery Live](https://image-galery-project-6ubu.vercel.app/)
+
+---
 
 ## 🛠️ Prerequisites
 
